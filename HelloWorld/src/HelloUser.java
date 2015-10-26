@@ -18,7 +18,7 @@ public class HelloUser {
 			BufferedReader bufferRead = new BufferedReader(new InputStreamReader(System.in));
 			userName = bufferRead.readLine();
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
+			// TODO Auto-generated catch block 2
 			e.printStackTrace();
 		}
 		System.out.println("Hallo " + userName + "!");
